@@ -1,13 +1,29 @@
 {
-    "name": "docker_web_app",
-    "version": "1.0.0",
-    "description": "Node.js on Docker",
-    "author": "First Last <first.last@example.com>",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "^4.16.1"
-    }
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "@types/jest": "^24.0.19",
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-router": "^4.5.6",
+    "@vue/cli-plugin-typescript": "^4.5.6",
+    "@vue/cli-plugin-unit-jest": "^4.5.8",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "jest": "^26.6.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "typescript": "~3.9.3",
+    "vue": "^3.0.2",
+    "vue-jest": "^5.0.0-0"
+  },
+  "devDependencies": {},
+  "author": "Michal Koplinger"
 }
