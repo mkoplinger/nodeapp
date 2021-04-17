@@ -8,9 +8,9 @@ describe('app.vue', () => {
   })
 })
 
-// describe('app.vue', () => {
-//   it('you shall not pass', () => {
-//     const wrapper = shallowMount(App);
-//     expect(wrapper.find("span").text()).toBe("4")
-//   })
-// })
+describe('app.vue', () => {
+  it('you shall not pass', () => {
+    const wrapper = shallowMount(App);
+    expect(wrapper.find("span").text()).toBe("4")
+  })
+})
